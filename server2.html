@@ -1,0 +1,31 @@
+<!-- Video Player -->
+<div class="video-container">
+    <iframe id="video-frame" src="https://ifram.embedxt.site/iframe/frame.php?autoplay=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    
+    <!-- Watermark -->
+    <div class="watermark">xflixbd.com</div>
+</div>
+
+<!-- CSS -->
+<style>
+
+#video-frame {
+    width: 100%;
+    height: 100%; /* Adjust as needed */
+}
+
+.watermark {
+      position: absolute;
+      font-family: Arial;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 10;
+}
+</style>
+<scipt src="script.js"></script>
